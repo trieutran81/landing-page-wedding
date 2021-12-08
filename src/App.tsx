@@ -215,7 +215,6 @@ const App: React.FC = () => {
             <div className="section-title">
               <Row>
                 <Col span={24}>
-                  {" "}
                   <h2>Happy Cuple</h2>
                 </Col>
               </Row>
@@ -227,12 +226,13 @@ const App: React.FC = () => {
                     </div>
                     <div className="couple-text">
                       <div className="couple-content">
-                        <h3>Thu Thảo</h3>
+                        <h3>Thu Thảo (trong vai Nóc Nhà ^^) </h3>
                         <p>
-                          Hi I am Nancy Elizabeth. I am going to introduce
-                          myself.I am a professional graphic designer
-                          professional graphic designer going to introduce
-                          myself.I am going to introduce myself.
+                          Một cô gái ngân hàng nhỏ nhắn, đáng yêu với đôi kính
+                          cận. Ấn tượng đầu tiên khi gặp là nụ cười rất hiền và
+                          dễ gây được thiện cảm với người đối diện, tính cách
+                          hòa đồng cởi mở cũng giúp Thảo nhanh chóng làm quen
+                          cũng như bắt nhịp kịp mọi thứ.
                         </p>
                       </div>
                     </div>
@@ -245,12 +245,12 @@ const App: React.FC = () => {
                     </div>
                     <div className="couple-text">
                       <div className="couple-content">
-                        <h3>Thành Nhân</h3>
+                        <h3>Thành Nhân (aka Bi)</h3>
                         <p>
-                          Hi I am Nancy Elizabeth. I am going to introduce
-                          myself.I am a professional graphic designer
-                          professional graphic designer going to introduce
-                          myself.I am going to introduce myself.
+                          Một cục đen thui to bự và rất gấu, nhưng luôn được mọi
+                          người nhận xét là ấm áp và nhiệt tình. Miệng bằng tay,
+                          tay bằng miệng. Sống khá tình cảm và đôi khi đó chính
+                          là điểm yếu của Bi.
                         </p>
                       </div>
                     </div>
@@ -264,16 +264,28 @@ const App: React.FC = () => {
               <Row className="row">
                 <Col span={24} className="col-lg-12">
                   <div className="welcome-content">
-                    <h2>Welcome to our big day</h2>
+                    <h2>Welcome to my life</h2>
+                    <p>“Bà” yêu &hearts; ,</p>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or less normal distribution of letters
+                      Hôm nay chính thức là ngày tụi mình về một nhà, ngày chính
+                      thức em lên chức Nóc Nhà ^^ , hơn ai hết anh vui lắm và đã
+                      chờ ngày này đã lâu rồi. Như đã từng nói với em, đời anh
+                      là những chuỗi ngày dài theo đuổi và kiếm tìm, cứ nghĩ
+                      mình vẫn sẽ luôn độc hành tiếp tục khá lâu trên chuyến
+                      hành trình thì Covid đã cô tình tạo cơ hội cho mình gặp
+                      nhau, vì em không về quê được nên mình vô tình có nhiều
+                      hơn thời gian dành cho nhau, tìm hiểu và chính thức hẹn
+                      hò.
                     </p>
-                    <button type="button" className="btn btn btn-secondary">
-                      Location
-                    </button>
+                    <p>
+                      Không ai biết ngày mai ra sao và tương lai sẽ như thế nào,
+                      nhưng anh luôn nhắc nhở mình phải trân trọng tình cảm của
+                      em, anh dặn lòng mình phải sống tốt và không để em buồn
+                      lòng. Dù có điều gì xảy ra đi nữa thì xin em đừng rời xa
+                      anh nhé.
+                    </p>
+                    <p style={{ textAlign: "right" }}>Chồng của bà</p>
+                    <p style={{ textAlign: "right" }}>Bi Bò with love</p>
                   </div>
                 </Col>
               </Row>
@@ -294,94 +306,86 @@ const App: React.FC = () => {
                 <Row className="row">
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/1.jpg" alt="" />
+                      <img src="/assets/images/hinh2.jpg" alt="" />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-text left-align-text">
                       <h3>First time we met</h3>
-                      <span className="date">Jan 12 2019</span>
+                      <span className="date">Jan 23,2020</span>
                       <p>
-                        A wonderful serenity has taken possession of my entire
-                        soul, like these sweet mornings of spring which I enjoy
-                        with my whole heart. I am alone, and feel the charm of
-                        existence in this spot, which was created for the bliss
-                        of souls like mine. I am so happy, my dear friend,{" "}
+                        Lần đầu tiên gặp nhau, chắc chắn ấn tượng đầu tiên của
+                        em với anh sẽ là câu nói “đi với anh nhớ mặc quần”
+                        =]]]]]]]. Đây nghiêm túc là một lý do nghiêm túc và đàng
+                        hoàng, vì Bi đang đi 1 PKL, sợ rằng ngày đó em mặc váy
+                        thì sẽ không hay nên đó là câu nói nửa vui nửa thật Bi
+                        “dặn” em khi gặp nhau.
                       </p>
-                      <div className="story-button">
-                        <a className="theme-btn" href="/">
-                          Read More
-                        </a>
-                      </div>
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-text right-align-text">
-                      <h3>Our First Date</h3>
-                      <span className="date">Dec 25, 2017</span>
+                      <h3>Our declare love </h3>
+                      <span className="date">Jan 27,2020 </span>
                       <p>
-                        A wonderful serenity has taken possession of my entire
-                        soul, like these sweet mornings of spring which I enjoy
-                        with my whole heart. I am alone, and feel the charm of
-                        existence in this spot, which was created for the bliss
-                        of souls like mine. I am so happy, my dear friend,{" "}
+                        Sala mùng 3 tết, bằng hết tất cả sự can đảm & cũng không
+                        quên vò tay bứt tóc, anh tỏ tình và may mắn được em đồng
+                        ý, để rồi từ đây bắt đầu cho chuỗi ngày đồng hành cùng
+                        nhau.
                       </p>
-                      <div className="story-button">
-                        <a className="theme-btn" href="/">
-                          Read More
-                        </a>
-                      </div>
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/2.jpg" alt="" />
+                      <img src="/assets/images/hinh3.jpg" alt="" />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/3.jpg" alt="" />
+                      <img src="/assets/images/hinh4.jpg" alt="" />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-text left-align-text">
-                      <h3>Our Marriage Proposal</h3>
-                      <span className="date">Jan 10, 2018</span>
+                      <h3>Our First Trips </h3>
+                      <span className="date">Feb 16, 2020</span>
                       <p>
-                        A wonderful serenity has taken possession of my entire
-                        soul, like these sweet mornings of spring which I enjoy
-                        with my whole heart. I am alone, and feel the charm of
-                        existence in this spot, which was created for the bliss
-                        of souls like mine. I am so happy, my dear friend,{" "}
+                        Chuyến đi đầu tiên đi cùng em, chuyến đi khi cao hứng,
+                        tính nhanh quyết định nhanh. Và đây là bắt đầu của chuối
+                        ngày dài em “mài mông” trên con “wave tàu” của a 😉
                       </p>
-                      <div className="story-button">
-                        <a className="theme-btn" href="/">
-                          Read More
-                        </a>
-                      </div>
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-text right-align-text">
-                      <h3>Our Engagement</h3>
-                      <span className="date">Jan 22, 2018</span>
+                      <h3>Our Marriage Proposal </h3>
+                      <span className="date">Jan 24, 2021</span>
                       <p>
-                        A wonderful serenity has taken possession of my entire
-                        soul, like these sweet mornings of spring which I enjoy
-                        with my whole heart. I am alone, and feel the charm of
-                        existence in this spot, which was created for the bliss
-                        of souls like mine. I am so happy, my dear friend,{" "}
+                        Và rồi, một buổi tối nhẹ nhàng với nến, hoa, với sự
+                        chứng kiến của anh chị, bạn bè thân thiết. Em đã đồng ý
+                        lời cầu hôn từ anh &hearts;
                       </p>
-                      <div className="story-button">
-                        <a className="theme-btn" href="/">
-                          Read More
-                        </a>
-                      </div>
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/4.jpg" alt="" />
+                      <img src="/assets/images/hinh5.jpg" alt="" />
+                    </div>
+                  </Col>
+                  <Col md={12} span={12}>
+                    <div className="story-img">
+                      <img src="/assets/images/hinh6.jpg" alt="" />
+                    </div>
+                  </Col>
+                  <Col md={12} span={12}>
+                    <div className="story-text left-align-text">
+                      <h3>Our Engagement </h3>
+                      <span className="date">Dec 22, 2021 </span>
+                      <p>
+                        Và ngày mong ước cũng đã đến, chính thức hôm nay chúng
+                        ta về một nhà, cùng vui, cùng chăm sóc, cùng nhau đồng
+                        hành trên suốt chuyến hành trình cuộc đời này.
+                      </p>
                     </div>
                   </Col>
                 </Row>
@@ -393,7 +397,7 @@ const App: React.FC = () => {
               <Row>
                 <Col span={24}>
                   {" "}
-                  <h2> Groomsmen &amp; Bridesmaid</h2>
+                  <h2>Our Family</h2>
                 </Col>
               </Row>
             </div>
@@ -405,11 +409,11 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
+                            <img src="/assets/images/hinh7.jpg" alt="bride" />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
-                                  <a href="/">
+                                  <a href="https://www.facebook.com/luongvan.chin.5">
                                     <i className="fab fa-facebook"></i>
                                   </a>
                                 </li>
@@ -417,19 +421,18 @@ const App: React.FC = () => {
                             </div>
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Chị gái</h4>
-                            <span>Sister</span>
+                            <h4>Ba Chín </h4>
                           </div>
                         </div>
                       </Col>
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
+                            <img src="/assets/images/hinh8.jpg" alt="bride" />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
-                                  <a href="/">
+                                  <a href="https://www.facebook.com/truong.truc.9231">
                                     <span className="fas fa-facebook"></span>
                                   </a>
                                 </li>
@@ -437,39 +440,28 @@ const App: React.FC = () => {
                             </div>
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Bạn thân</h4>
-                            <span>Best Friend</span>
+                            <h4>Mẹ Trúc</h4>
                           </div>
                         </div>
                       </Col>
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
-                            <div className="social-list">
-                              <ul className="d-flex">
-                                <li>
-                                  <a href="/">
-                                    <span className="fas fa-facebook"></span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
+                            <img src="/assets/images/hinh9.jpg" alt="bride" />
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Bạn</h4>
-                            <span>Friend</span>
+                            <h4>Bà Ngoại </h4>
                           </div>
                         </div>
                       </Col>
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
+                            <img src="/assets/images/hinh10.jpg" alt="bride" />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
-                                  <a href="/">
+                                  <a href="https://www.facebook.com/profile.php?id=100075643809020">
                                     <span className="fas fa-facebook"></span>
                                   </a>
                                 </li>
@@ -477,8 +469,7 @@ const App: React.FC = () => {
                             </div>
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Bạn</h4>
-                            <span>Friend</span>
+                            <h4>Chị Lệ và Cháu</h4>
                           </div>
                         </div>
                       </Col>
@@ -487,11 +478,11 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
+                            <img src="/assets/images/hinh11.jpg" alt="bride" />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
-                                  <a href="/">
+                                  <a href="https://www.facebook.com/profile.php?id=100033374205305">
                                     <i className="fab fa-facebook"></i>
                                   </a>
                                 </li>
@@ -499,19 +490,18 @@ const App: React.FC = () => {
                             </div>
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Anh trai </h4>
-                            <span>Brother</span>
+                            <h4>Bố Thuận</h4>
                           </div>
                         </div>
                       </Col>
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
+                            <img src="/assets/images/hinh12.jpg" alt="bride" />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
-                                  <a href="/">
+                                  <a href="https://www.facebook.com/profile.php?id=100024417502398">
                                     <i className="fab fa-facebook"></i>
                                   </a>
                                 </li>
@@ -519,19 +509,18 @@ const App: React.FC = () => {
                             </div>
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Bạn Thân </h4>
-                            <span>Best Friend</span>
+                            <h4>Mẹ Mĩnh</h4>
                           </div>
                         </div>
                       </Col>
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
+                            <img src="/assets/images/hinh13.jpg" alt="bride" />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
-                                  <a href="/">
+                                  <a href="https://www.facebook.com/thang.duc.7777">
                                     <span className="fas fa-facebook"></span>
                                   </a>
                                 </li>
@@ -539,19 +528,18 @@ const App: React.FC = () => {
                             </div>
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Bạn</h4>
-                            <span>Friend</span>
+                            <h4>Anh Thắng </h4>
                           </div>
                         </div>
                       </Col>
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/1.jpg" alt="bride" />
+                            <img src="/assets/images/hinh14.jpg" alt="bride" />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
-                                  <a href="/">
+                                  <a href="https://www.facebook.com/buivanthuc91">
                                     <span className="fas fa-facebook"></span>
                                   </a>
                                 </li>
@@ -559,8 +547,7 @@ const App: React.FC = () => {
                             </div>
                           </div>
                           <div className="groomsmen-bridesmaid-content">
-                            <h4>Bạn</h4>
-                            <span>Friend</span>
+                            <h4>Anh Thức & Chị Thúy </h4>
                           </div>
                         </div>
                       </Col>
@@ -578,7 +565,7 @@ const App: React.FC = () => {
                 </Col>
               </Row>
             </div>
-            <div className="container">
+            <div>
               <Row className="row">
                 <Col span={24} className="col-12">
                   <div className="tabs-site-button">
@@ -597,30 +584,16 @@ const App: React.FC = () => {
                             <Col
                               span={14}
                               className="col-lg-7 col-md-12 col-12"
+                              style={{ alignSelf: "center" }}
                             >
                               <div className="event-text">
                                 <h3>Wedding Ceremony</h3>
-                                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
                                 <span>
-                                  256 Apay Road,Califonia Bong, London
+                                  Lễ đón dâu sẽ diễn ra vào lúc 7:00 ngày
+                                  22/12/2021 nhằm ngày 19 tháng 11 Âm Lịch tại
+                                  nhà của Nhân, Khu phố 3, phường An Lạc A, Quận
+                                  Bình Tân.
                                 </span>
-                                <p>
-                                  It is a long established fact that a reader
-                                  will be distracted by the readable content of
-                                  a page when looking at its layout. The point
-                                  of using Lorem Ipsum is that it has a
-                                  more-or-less normal It is a long established
-                                  fact that a reader will be distracted by the
-                                  readable content of a page when looking at its
-                                  layout. The point of using Lorem Ipsum is that
-                                  it has a more-or-less normal{" "}
-                                </p>
-                                <button
-                                  type="button"
-                                  className="btn btn btn-secondary"
-                                >
-                                  Location
-                                </button>
                               </div>
                             </Col>
                           </Row>
@@ -630,30 +603,14 @@ const App: React.FC = () => {
                             <Col
                               span={14}
                               className="col-lg-7 col-md-12 col-12"
+                              style={{ alignSelf: "center" }}
                             >
                               <div className="event-text event-text-2">
                                 <h3>Wedding Party</h3>
-                                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
                                 <span>
-                                  256 Apay Road,Califonia Bong, London
+                                  Tiệc trưa sẽ được diễn ra vào lúc 11:00 ngày
+                                  22/12/2021 tại tư gia của Nhân(aka Bi).
                                 </span>
-                                <p>
-                                  It is a long established fact that a reader
-                                  will be distracted by the readable content of
-                                  a page when looking at its layout. The point
-                                  of using Lorem Ipsum is that it has a
-                                  more-or-less normal It is a long established
-                                  fact that a reader will be distracted by the
-                                  readable content of a page when looking at its
-                                  layout. The point of using Lorem Ipsum is that
-                                  it has a more-or-less normal{" "}
-                                </p>
-                                <button
-                                  type="button"
-                                  className="btn btn btn-secondary"
-                                >
-                                  Location
-                                </button>
                               </div>
                             </Col>
                             <Col
@@ -679,30 +636,17 @@ const App: React.FC = () => {
                             <Col
                               span={14}
                               className="col-lg-7 col-md-12 col-12"
+                              style={{ alignSelf: "center" }}
                             >
                               <div className="event-text">
                                 <h3>Wedding Dinner</h3>
-                                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
                                 <span>
-                                  256 Apay Road,Califonia Bong, London
+                                  Hiện tại với tình hình Covid vẫn chưa ổn định,
+                                  nên mong rằng cùng với sự chung tay của tất cả
+                                  mọi người chúng ta sẽ sớm kiểm soát được dịch
+                                  và sẽ sớm gặp nhau để cùng ca hát nhảy múa
+                                  nhé.
                                 </span>
-                                <p>
-                                  It is a long established fact that a reader
-                                  will be distracted by the readable content of
-                                  a page when looking at its layout. The point
-                                  of using Lorem Ipsum is that it has a
-                                  more-or-less normal It is a long established
-                                  fact that a reader will be distracted by the
-                                  readable content of a page when looking at its
-                                  layout. The point of using Lorem Ipsum is that
-                                  it has a more-or-less normal{" "}
-                                </p>
-                                <button
-                                  type="button"
-                                  className="btn btn btn-secondary"
-                                >
-                                  Location
-                                </button>
                               </div>
                             </Col>
                           </Row>
@@ -717,14 +661,12 @@ const App: React.FC = () => {
         </div>
       </Content>
       <div className="site-footer s2">
-        <div className="container">
           <Row>
             <div className="text">
               <h2>Nhân &amp; Thảo</h2>
               <p>Thank you</p>
             </div>
           </Row>
-        </div>
       </div>
     </Layout>
   );

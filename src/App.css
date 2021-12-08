@@ -125,7 +125,7 @@ h1, h2 {
   top: -80px;
   left: 50%;
   content: "";
-  background: url('http://localhost:3000/assets/images/flower.png');
+  background: url('/src/flower.png');
   width: 100px;
   height: 80px;
   -webkit-transform: translateX(-50%);
@@ -222,7 +222,7 @@ h1, h2 {
   width: 195px;
   padding: 65px 0 23px;
   margin: 0 8px;
-  background:url('http://localhost:3000/assets/images/vector.png') no-repeat;
+  background:url('/src/assets/images/vector.png') no-repeat;
   height: 200px;
   background-size: cover;
 }
@@ -277,7 +277,7 @@ h1, h2 {
   position: absolute;
   right: -20px;
   bottom: -33px;
-  background: url('http://localhost:3000/assets/images/heart2.png');
+  background: url('/src/assets/images/heart2.png');
   content: "";
   width: 39px;
   height: 34px;
@@ -287,19 +287,19 @@ h1, h2 {
   position: absolute;
   left: -20px;
   top: 0;
-  background: url('http://localhost:3000/assets/images/heart.png');
+  background: url('/src/assets/images/heart.png');
   content: "";
   width: 39px;
   height: 34px;
 }
 .welcome-area.s2 {
-  background: url(http://localhost:3000/assets/images/bg.png);
+  background: url(/src/assets/images/bg.png);
   background-attachment: fixed;
 }
 .welcome-area {
-  /* background: url(http://localhost:3000/assets/images/bg.png); */
+  /* background: url(/src/assets/images/bg.png); */
   position: relative;
-  height: 500px;
+  height: 700px;
   background-attachment: fixed;
 }
 .welcome-area:before {
@@ -324,7 +324,6 @@ h1, h2 {
   font-size: 18px;
   padding: 20px 50px 30px;
   color: #fff;
-  max-width: 700px;
   margin: auto;
 }
 
