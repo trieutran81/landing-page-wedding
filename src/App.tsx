@@ -75,7 +75,7 @@ const App: React.FC = () => {
   return (
     <Layout>
       <BackTop />
-      <Header id="Home" className="header">
+      <Header id="home" className="header">
         <Row justify="center" className="header-row">
           <Col className="logo">
             <h2>
@@ -83,25 +83,22 @@ const App: React.FC = () => {
             </h2>
           </Col>
           <Col>
-            <a href="#Home">Home</a>
+            <a href="#home">Home</a>
           </Col>
           <Col>
-            <a href="#Couple">Couple</a>
+            <a href="#couple">Couple</a>
           </Col>
           <Col>
-            <a href="#Story">Story</a>
+            <a href="#story">Story</a>
           </Col>
           <Col>
-            <a href="#People">People</a>
+            <a href="#people">Family</a>
           </Col>
           <Col>
-            <a href="#Events">Events</a>
+            <a href="#events">Events</a>
           </Col>
           <Col>
-            <a href="#Gallery">Gallery</a>
-          </Col>
-          <Col>
-            <a href="#Blog">Blog</a>
+            <a href="#gallery">Gallery</a>
           </Col>
         </Row>
       </Header>
@@ -211,7 +208,7 @@ const App: React.FC = () => {
             </div>
           </Carousel>
           <Countdown date={countDate} renderer={renderer} />
-          <div id="Couple" className="container">
+          <div id="couple" className="container">
             <div className="section-title">
               <Row>
                 <Col span={24}>
@@ -222,7 +219,7 @@ const App: React.FC = () => {
                 <Col span={12}>
                   <div className="couple-wrap couple-wrap-2">
                     <div className="couple-img">
-                      <img src="/assets/images/thao.jpg" />
+                      <img src="/assets/images/hinh1.jpg" />
                     </div>
                     <div className="couple-text">
                       <div className="couple-content">
@@ -557,6 +554,7 @@ const App: React.FC = () => {
               </div>
             </div>
           </div>
+        
           <div id="event" className="container">
             <div className="section-title">
               <Row>
@@ -609,7 +607,7 @@ const App: React.FC = () => {
                                 <h3>Wedding Party</h3>
                                 <span>
                                   Tiệc trưa sẽ được diễn ra vào lúc 11:00 ngày
-                                  22/12/2021 tại tư gia của Nhân(aka Bi).
+                                  22/12/2021 tại tư gia của Nhân.
                                 </span>
                               </div>
                             </Col>
@@ -656,6 +654,18 @@ const App: React.FC = () => {
                   </div>
                 </Col>
               </Row>
+            </div>
+          </div>
+          <div id="gallery" className="container">
+            <div className="section-title">
+              <Row>
+                <Col span={24}>
+                  <h2>Gallery</h2>
+                </Col>
+              </Row>
+            </div>
+            <div>
+                  <h3>Coming ....</h3>
             </div>
           </div>
         </div>
