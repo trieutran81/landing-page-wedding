@@ -433,7 +433,7 @@ const App: React.FC = () => {
                               <ul className="d-flex">
                                 <li>
                                   <a href="https://www.facebook.com/truong.truc.9231">
-                                    <span className="fas fa-facebook"></span>
+                                    <span className="fab fa-facebook"></span>
                                   </a>
                                 </li>
                               </ul>
@@ -462,7 +462,7 @@ const App: React.FC = () => {
                               <ul className="d-flex">
                                 <li>
                                   <a href="https://www.facebook.com/profile.php?id=100075643809020">
-                                    <span className="fas fa-facebook"></span>
+                                    <span className="fab fa-facebook"></span>
                                   </a>
                                 </li>
                               </ul>
@@ -521,7 +521,7 @@ const App: React.FC = () => {
                               <ul className="d-flex">
                                 <li>
                                   <a href="https://www.facebook.com/thang.duc.7777">
-                                    <span className="fas fa-facebook"></span>
+                                    <span className="fab fa-facebook"></span>
                                   </a>
                                 </li>
                               </ul>
@@ -540,7 +540,7 @@ const App: React.FC = () => {
                               <ul className="d-flex">
                                 <li>
                                   <a href="https://www.facebook.com/buivanthuc91">
-                                    <span className="fas fa-facebook"></span>
+                                    <span className="fab fa-facebook"></span>
                                   </a>
                                 </li>
                               </ul>
