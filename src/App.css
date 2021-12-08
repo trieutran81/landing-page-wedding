@@ -253,6 +253,7 @@ h1, h2 {
   width: 100%;
   width: 340px;
   height: 340px;
+  object-fit: cover;
   border-radius: 50%;
   border: 10px solid #b2c9d3;
   -webkit-filter: grayscale(0);
