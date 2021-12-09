@@ -317,6 +317,7 @@ h1, h2 {
 .welcome-content {
   text-align: center;
   /* padding: 100px 0; */
+  margin: 70px 0px;
 }
 .welcome-content h2 {
   font-size: 55px;
