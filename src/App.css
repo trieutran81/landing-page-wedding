@@ -316,7 +316,7 @@ h1, h2 {
 }
 .welcome-content {
   text-align: center;
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 .welcome-content h2 {
   font-size: 55px;
@@ -324,7 +324,7 @@ h1, h2 {
 }
 .welcome-content p {
   font-size: 18px;
-  padding: 20px 50px 30px;
+  padding: 8px 50px 30px;
   color: #fff;
   margin: auto;
 }
