@@ -4,11 +4,8 @@ import { Layout, Row, Col, Button, BackTop } from "antd";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import Countdown from "react-countdown";
 
-// import Carousel from "react-responsive-carousel/lib/js/components/Carousel/index";
 import { Carousel } from "react-responsive-carousel";
 const { Header, Content, Footer } = Layout;
-// Random component
-
 interface TypeProps {
   days: any;
   hours: any;
@@ -545,6 +542,25 @@ const App: React.FC = () => {
                           </div>
                           <div className="groomsmen-bridesmaid-content">
                             <h4>Anh Thức & Chị Thúy </h4>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col span={6} className="grid" style={{margin:'auto'}}>
+                        <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap">
+                          <div className="groomsmen-bridesmaid-img">
+                            <img src="/assets/images/hinh15.jpg" alt="bride" />
+                            <div className="social-list">
+                              <ul className="d-flex">
+                                <li>
+                                  <a href="#">
+                                    <span className="fab fa-facebook"></span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div className="groomsmen-bridesmaid-content">
+                            <h4>TÁO Nè </h4>
                           </div>
                         </div>
                       </Col>
