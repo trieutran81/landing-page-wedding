@@ -14,7 +14,7 @@ interface TypeProps {
   completed: any;
 }
 const App: React.FC = () => {
-  const countDate = new Date("12/22/2021");
+  const countDate = new Date("12/22/2022");
   // Renderer callback with condition
   const renderer = (time: TypeProps) => {
     if (time.completed) {
