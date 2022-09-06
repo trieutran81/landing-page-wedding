@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/landing-page-wedding/static/css/main.62353283.chunk.css",
-    "main.js": "/landing-page-wedding/static/js/main.718f505b.chunk.js",
-    "main.js.map": "/landing-page-wedding/static/js/main.718f505b.chunk.js.map",
-    "runtime-main.js": "/landing-page-wedding/static/js/runtime-main.dac4d2d0.js",
-    "runtime-main.js.map": "/landing-page-wedding/static/js/runtime-main.dac4d2d0.js.map",
-    "static/css/2.04faa8d8.chunk.css": "/landing-page-wedding/static/css/2.04faa8d8.chunk.css",
-    "static/js/2.a8cfd61d.chunk.js": "/landing-page-wedding/static/js/2.a8cfd61d.chunk.js",
-    "static/js/2.a8cfd61d.chunk.js.map": "/landing-page-wedding/static/js/2.a8cfd61d.chunk.js.map",
-    "static/js/3.cf1c8d47.chunk.js": "/landing-page-wedding/static/js/3.cf1c8d47.chunk.js",
-    "static/js/3.cf1c8d47.chunk.js.map": "/landing-page-wedding/static/js/3.cf1c8d47.chunk.js.map",
-    "index.html": "/landing-page-wedding/index.html",
-    "static/css/2.04faa8d8.chunk.css.map": "/landing-page-wedding/static/css/2.04faa8d8.chunk.css.map",
-    "static/css/main.62353283.chunk.css.map": "/landing-page-wedding/static/css/main.62353283.chunk.css.map",
-    "static/js/2.a8cfd61d.chunk.js.LICENSE.txt": "/landing-page-wedding/static/js/2.a8cfd61d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/landing-page-wedding/static/media/vector.fb3ccb18.png"
+    "main.css": "/static/css/main.01f52be4.chunk.css",
+    "main.js": "/static/js/main.718f505b.chunk.js",
+    "main.js.map": "/static/js/main.718f505b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bd3da7fd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bd3da7fd.js.map",
+    "static/css/2.04faa8d8.chunk.css": "/static/css/2.04faa8d8.chunk.css",
+    "static/js/2.a8cfd61d.chunk.js": "/static/js/2.a8cfd61d.chunk.js",
+    "static/js/2.a8cfd61d.chunk.js.map": "/static/js/2.a8cfd61d.chunk.js.map",
+    "static/js/3.cf1c8d47.chunk.js": "/static/js/3.cf1c8d47.chunk.js",
+    "static/js/3.cf1c8d47.chunk.js.map": "/static/js/3.cf1c8d47.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.04faa8d8.chunk.css.map": "/static/css/2.04faa8d8.chunk.css.map",
+    "static/css/main.01f52be4.chunk.css.map": "/static/css/main.01f52be4.chunk.css.map",
+    "static/js/2.a8cfd61d.chunk.js.LICENSE.txt": "/static/js/2.a8cfd61d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/vector.fb3ccb18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dac4d2d0.js",
+    "static/js/runtime-main.bd3da7fd.js",
     "static/css/2.04faa8d8.chunk.css",
     "static/js/2.a8cfd61d.chunk.js",
-    "static/css/main.62353283.chunk.css",
+    "static/css/main.01f52be4.chunk.css",
     "static/js/main.718f505b.chunk.js"
   ]
 }
