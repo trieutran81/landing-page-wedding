@@ -14,7 +14,7 @@ interface TypeProps {
   completed: any;
 }
 const App: React.FC = () => {
-  const countDate = new Date("12/22/2022");
+  const countDate = new Date("10/02/2022");
   // Renderer callback with condition
   const renderer = (time: TypeProps) => {
     if (time.completed) {
@@ -102,10 +102,10 @@ const App: React.FC = () => {
       <Content className="site-layout" style={{ padding: "0", marginTop: 64 }}>
         <div
           className="site-layout-background"
-          style={{ padding: 0, minHeight: 380 }}
+          // style={{ padding: 0, minHeight: 380 }}
         >
           <Carousel
-            showArrows={true}
+            showArrows={false}
             showStatus={false}
             showIndicators={false}
             infiniteLoop={true}
@@ -117,6 +117,7 @@ const App: React.FC = () => {
             dynamicHeight={false}
             emulateTouch={false}
             autoFocus={false}
+            
             swipeScrollTolerance={5}
             renderArrowPrev={(onClickHandler, hasPrev, label) =>
               hasPrev && (
@@ -152,8 +153,8 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                style={{ height: window.innerHeight - 64 }}
-                src="/assets/images/bg.png"
+                
+                src="/assets/images/A(1).jpg"
               />
               <div className="legend">
                 <div>
@@ -163,7 +164,7 @@ const App: React.FC = () => {
                   <h2>Save Our Date</h2>
                 </div>
                 <div>
-                  <h3>22 December 2021</h3>
+                  <h3>02 October 2022</h3>
                 </div>
                 <div
                   style={{
@@ -179,8 +180,8 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                style={{ height: window.innerHeight - 64 }}
-                src="/assets/images/bg.png"
+                
+                src="/assets/images/A(2).jpg"
               />
               <div className="legend">
                 <div>
@@ -190,7 +191,142 @@ const App: React.FC = () => {
                   <h2>Save Our Date</h2>
                 </div>
                 <div>
-                  <h3>22 December 2021</h3>
+                  <h3>02 October 2022</h3>
+                </div>
+                <div
+                  style={{
+                    animationDelay: "0ms",
+                    animationDuration: "1000ms",
+                    pointerEvents: "all",
+                  }}
+                >
+                  <div className="animated-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-div">
+              <img
+                className="carousel-image"
+                
+                src="/assets/images/A(3).jpg"
+              />
+              <div className="legend">
+                <div>
+                  <h3>WERE GETTING MARRIED</h3>
+                </div>
+                <div>
+                  <h2>Save Our Date</h2>
+                </div>
+                <div>
+                  <h3>02 October 2022</h3>
+                </div>
+                <div
+                  style={{
+                    animationDelay: "0ms",
+                    animationDuration: "1000ms",
+                    pointerEvents: "all",
+                  }}
+                >
+                  <div className="animated-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-div">
+              <img
+                className="carousel-image"
+                
+                src="/assets/images/A(4).jpg"
+              />
+              <div className="legend">
+                <div>
+                  <h3>WERE GETTING MARRIED</h3>
+                </div>
+                <div>
+                  <h2>Save Our Date</h2>
+                </div>
+                <div>
+                  <h3>02 October 2022</h3>
+                </div>
+                <div
+                  style={{
+                    animationDelay: "0ms",
+                    animationDuration: "1000ms",
+                    pointerEvents: "all",
+                  }}
+                >
+                  <div className="animated-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-div">
+              <img
+                className="carousel-image"
+                
+                src="/assets/images/A(5).jpg"
+              />
+              <div className="legend">
+                <div>
+                  <h3>WERE GETTING MARRIED</h3>
+                </div>
+                <div>
+                  <h2>Save Our Date</h2>
+                </div>
+                <div>
+                  <h3>02 October 2022</h3>
+                </div>
+                <div
+                  style={{
+                    animationDelay: "0ms",
+                    animationDuration: "1000ms",
+                    pointerEvents: "all",
+                  }}
+                >
+                  <div className="animated-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-div">
+              <img
+                className="carousel-image"
+                
+                src="/assets/images/A(6).jpg"
+              />
+              <div className="legend">
+                <div>
+                  <h3>WERE GETTING MARRIED</h3>
+                </div>
+                <div>
+                  <h2>Save Our Date</h2>
+                </div>
+                <div>
+                  <h3>02 October 2022</h3>
+                </div>
+                <div
+                  style={{
+                    animationDelay: "0ms",
+                    animationDuration: "1000ms",
+                    pointerEvents: "all",
+                  }}
+                >
+                  <div className="animated-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-div">
+              <img
+                className="carousel-image"
+                
+                src="/assets/images/A(7).jpg"
+              />
+              <div className="legend">
+                <div>
+                  <h3>WERE GETTING MARRIED</h3>
+                </div>
+                <div>
+                  <h2>Save Our Date</h2>
+                </div>
+                <div>
+                  <h3>02 October 2022</h3>
                 </div>
                 <div
                   style={{
@@ -253,7 +389,7 @@ const App: React.FC = () => {
               </Row>
             </div>
           </div>
-          <div className="welcome-area s2">
+          <div id="welcome" className="welcome-area s2">
             <div className="container">
               <Row className="row">
                 <Col span={24} className="col-lg-12">
@@ -545,7 +681,7 @@ const App: React.FC = () => {
                           </div>
                         </div>
                       </Col>
-                      <Col span={6} className="grid" style={{margin:'auto'}}>
+                      <Col span={6} className="grid" style={{ margin: "auto" }}>
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
                             <img src="/assets/images/hinh15.jpg" alt="bride" />
@@ -570,8 +706,8 @@ const App: React.FC = () => {
               </div>
             </div>
           </div>
-        
-          <div id="event" className="container">
+
+          <div id="events" className="container">
             <div className="section-title">
               <Row>
                 <Col span={24}>
@@ -681,18 +817,213 @@ const App: React.FC = () => {
               </Row>
             </div>
             <div>
-                  <h3>Coming ....</h3>
+            <Row className="row">
+                <Col span={24} className="col-12">
+                  <div className="tabs-site-button">
+                    <div className="event-tabs">
+                      <Col className="col-md-12 col-12">
+                        <div className="event-wrap">
+                          <Row className="row">
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (1).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (2).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (3).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (4).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (5).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (6).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (7).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (8).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (9).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (10).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (11).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (12).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (13).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (14).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (15).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (16).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (17).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (18).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (19).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (20).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (21).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (22).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (23).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (24).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (25).jpg" />
+                              </div>
+                            </Col>
+                            <Col
+                              span={24}
+                            >
+                              <div className="event-img">
+                                <img src="/assets/images/gallery/A (26).jpg" />
+                              </div>
+                            </Col>
+                          </Row>
+                        </div>
+                      </Col>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
             </div>
           </div>
         </div>
       </Content>
       <div className="site-footer s2">
-          <Row>
-            <div className="text">
-              <h2>Nhân &amp; Thảo</h2>
-              <p>Thank you</p>
-            </div>
-          </Row>
+        <Row>
+          <div className="text">
+            <h2>Nhân &amp; Thảo</h2>
+            <p>Thank you</p>
+          </div>
+        </Row>
       </div>
     </Layout>
   );

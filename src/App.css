@@ -54,14 +54,17 @@ h1, h2 {
   color: #fff;
 }
 
-.site-layout .site-layout-background .carousel-div .carousel-image {}
+.site-layout .site-layout-background .carousel-div .carousel-image {
+  object-fit: cover;
+  width: 100%;
+}
 
 .site-layout .site-layout-background .btn-arrow-prev {
   position: absolute;
   z-index: 2;
   top: calc(50% - 15px);
-  border: solid 2px #fff;
-  color: #fff;
+  border: solid 2px #000;
+  color: #000;
   font-weight: bold;
   width: 50px;
   height: 50px;
@@ -74,9 +77,9 @@ h1, h2 {
   position: absolute;
   z-index: 2;
   top: calc(50% - 15px);
-  border: solid 2px #fff;
+  border: solid 2px #000;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -175,8 +178,8 @@ h1, h2 {
   left: calc(50% - 200px) !important;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  height: 400px;
+  width:  calc(20vw);
+  height:  calc(20vw);
   border-radius: 50%;
   background: rgba(178, 201, 211, .8);
   color: #fff;
@@ -295,14 +298,13 @@ h1, h2 {
   height: 34px;
 }
 .welcome-area.s2 {
-  background: url(/src/assets/images/bg.png);
+  background: url(/src/assets/images/A21.jpg);
   background-attachment: fixed;
+  background-size: contain;
 }
 .welcome-area {
-  /* background: url(/src/assets/images/bg.png); */
   position: relative;
   height: 700px;
-  background-attachment: fixed;
 }
 .welcome-area:before {
   content: "";
@@ -577,7 +579,6 @@ button.btn {
 }
 
 .site-footer {
-  background: url(/src/bg.png);
   text-align: center;
   padding: 120px 0;
   position: relative;
