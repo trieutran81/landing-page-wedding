@@ -31,7 +31,7 @@ const App: React.FC = () => {
                 <ul className="react-countdown">
                   <li
                     style={{
-                      backgroundImage: `url('/assets/images/vector.png')`,
+                      backgroundImage: `url('${window.location.pathname}/assets/images/vector.png')`,
                     }}
                   >
                     <p className="digit">{time.days}</p>
@@ -39,7 +39,7 @@ const App: React.FC = () => {
                   </li>
                   <li
                     style={{
-                      backgroundImage: `url('/assets/images/vector.png')`,
+                      backgroundImage: `url('${window.location.pathname}/assets/images/vector.png')`,
                     }}
                   >
                     <p className="digit">{time.hours}</p>
@@ -47,7 +47,7 @@ const App: React.FC = () => {
                   </li>
                   <li
                     style={{
-                      backgroundImage: `url('/assets/images/vector.png')`,
+                      backgroundImage: `url('${window.location.pathname}/assets/images/vector.png')`,
                     }}
                   >
                     <p className="digit">{time.minutes}</p>
@@ -55,7 +55,7 @@ const App: React.FC = () => {
                   </li>
                   <li
                     style={{
-                      backgroundImage: `url('/assets/images/vector.png')`,
+                      backgroundImage: `url('${window.location.pathname}/assets/images/vector.png')`,
                     }}
                   >
                     <p className="digit">{time.seconds}</p>
@@ -117,7 +117,6 @@ const App: React.FC = () => {
             dynamicHeight={false}
             emulateTouch={false}
             autoFocus={false}
-            
             swipeScrollTolerance={5}
             renderArrowPrev={(onClickHandler, hasPrev, label) =>
               hasPrev && (
@@ -153,8 +152,7 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                
-                src="/assets/images/A(1).jpg"
+                src={window.location.pathname + "/assets/images/A(1).jpg"}
               />
               <div className="legend">
                 <div>
@@ -180,8 +178,7 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                
-                src="/assets/images/A(2).jpg"
+                src={window.location.pathname + "/assets/images/A(2).jpg"}
               />
               <div className="legend">
                 <div>
@@ -207,8 +204,7 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                
-                src="/assets/images/A(3).jpg"
+                src={window.location.pathname + "/assets/images/A(3).jpg"}
               />
               <div className="legend">
                 <div>
@@ -234,8 +230,7 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                
-                src="/assets/images/A(4).jpg"
+                src={window.location.pathname + "/assets/images/A(4).jpg"}
               />
               <div className="legend">
                 <div>
@@ -261,8 +256,7 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                
-                src="/assets/images/A(5).jpg"
+                src={window.location.pathname + "/assets/images/A(5).jpg"}
               />
               <div className="legend">
                 <div>
@@ -288,8 +282,7 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                
-                src="/assets/images/A(6).jpg"
+                src={window.location.pathname + "/assets/images/A(6).jpg"}
               />
               <div className="legend">
                 <div>
@@ -315,8 +308,7 @@ const App: React.FC = () => {
             <div className="carousel-div">
               <img
                 className="carousel-image"
-                
-                src="/assets/images/A(7).jpg"
+                src={window.location.pathname + "/assets/images/A(7).jpg"}
               />
               <div className="legend">
                 <div>
@@ -352,7 +344,11 @@ const App: React.FC = () => {
                 <Col span={12}>
                   <div className="couple-wrap couple-wrap-2">
                     <div className="couple-img">
-                      <img src="/assets/images/hinh1.jpg" />
+                      <img
+                        src={
+                          window.location.pathname + "/assets/images/thao.jpg"
+                        }
+                      />
                     </div>
                     <div className="couple-text">
                       <div className="couple-content">
@@ -371,7 +367,9 @@ const App: React.FC = () => {
                 <Col span={12}>
                   <div className="couple-wrap couple-wrap-3">
                     <div className="couple-img">
-                      <img src="/assets/images/bi.jpg" />
+                      <img
+                        src={window.location.pathname + "/assets/images/bi.jpg"}
+                      />
                     </div>
                     <div className="couple-text">
                       <div className="couple-content">
@@ -436,7 +434,12 @@ const App: React.FC = () => {
                 <Row className="row">
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/hinh2.jpg" alt="" />
+                      <img
+                        src={
+                          window.location.pathname + "/assets/images/hinh2.jpg"
+                        }
+                        alt=""
+                      />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
@@ -467,12 +470,22 @@ const App: React.FC = () => {
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/hinh3.jpg" alt="" />
+                      <img
+                        src={
+                          window.location.pathname + "/assets/images/hinh3.jpg"
+                        }
+                        alt=""
+                      />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/hinh4.jpg" alt="" />
+                      <img
+                        src={
+                          window.location.pathname + "/assets/images/hinh4.jpg"
+                        }
+                        alt=""
+                      />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
@@ -499,12 +512,22 @@ const App: React.FC = () => {
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/hinh5.jpg" alt="" />
+                      <img
+                        src={
+                          window.location.pathname + "/assets/images/hinh5.jpg"
+                        }
+                        alt=""
+                      />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
                     <div className="story-img">
-                      <img src="/assets/images/hinh6.jpg" alt="" />
+                      <img
+                        src={
+                          window.location.pathname + "/assets/images/hinh6.jpg"
+                        }
+                        alt=""
+                      />
                     </div>
                   </Col>
                   <Col md={12} span={12}>
@@ -539,7 +562,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh7.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh7.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -558,7 +587,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh8.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh8.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -577,7 +612,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh9.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh9.jpg"
+                              }
+                              alt="bride"
+                            />
                           </div>
                           <div className="groomsmen-bridesmaid-content">
                             <h4>Bà Ngoại </h4>
@@ -587,7 +628,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh10.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh10.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -608,7 +655,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh11.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh11.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -627,7 +680,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh12.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh12.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -646,7 +705,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh13.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh13.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -665,7 +730,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid">
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh14.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh14.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -684,7 +755,13 @@ const App: React.FC = () => {
                       <Col span={6} className="grid" style={{ margin: "auto" }}>
                         <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap">
                           <div className="groomsmen-bridesmaid-img">
-                            <img src="/assets/images/hinh15.jpg" alt="bride" />
+                            <img
+                              src={
+                                window.location.pathname +
+                                "/assets/images/hinh15.jpg"
+                              }
+                              alt="bride"
+                            />
                             <div className="social-list">
                               <ul className="d-flex">
                                 <li>
@@ -721,14 +798,19 @@ const App: React.FC = () => {
                   <div className="tabs-site-button">
                     <div className="event-tabs">
                       <Col className="col-md-12 col-12">
-                        <div className="event-wrap">
+                        {/* <div className="event-wrap">
                           <Row className="row">
                             <Col
                               span={10}
                               className="col-lg-5 col-md-12 col-12"
                             >
                               <div className="event-img">
-                                <img src="/assets/images/where1.jpg" />
+                                <img
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/where1.jpg"
+                                  }
+                                />
                               </div>
                             </Col>
                             <Col
@@ -747,7 +829,7 @@ const App: React.FC = () => {
                               </div>
                             </Col>
                           </Row>
-                        </div>
+                        </div> */}
                         <div className="event-wrap">
                           <Row className="row">
                             <Col
@@ -759,7 +841,9 @@ const App: React.FC = () => {
                                 <h3>Wedding Party</h3>
                                 <span>
                                   Tiệc trưa sẽ được diễn ra vào lúc 11:00 ngày
-                                  22/12/2021 tại tư gia của Nhân.
+                                  02/10/2022 tại FLOOR 2 - LOBBY TULIP CALLARY
+                                  WEDDING & EVENTS 123 Lý Chính Thắng, Phường 7,
+                                  Quận 3, HCM.
                                 </span>
                               </div>
                             </Col>
@@ -768,19 +852,29 @@ const App: React.FC = () => {
                               className="col-lg-5 col-md-12 col-12"
                             >
                               <div className="event-img">
-                                <img src="/assets/images/where2.jpg" />
+                                <img
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/where2.jpg"
+                                  }
+                                />
                               </div>
                             </Col>
                           </Row>
                         </div>
-                        <div className="event-wrap">
+                        {/* <div className="event-wrap">
                           <Row className="row">
                             <Col
                               span={10}
                               className="col-lg-5 col-md-12 col-12"
                             >
                               <div className="event-img">
-                                <img src="/assets/images/where3.jpg" />
+                                <img
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/where3.jpg"
+                                  }
+                                />
                               </div>
                             </Col>
                             <Col
@@ -800,7 +894,7 @@ const App: React.FC = () => {
                               </div>
                             </Col>
                           </Row>
-                        </div>
+                        </div> */}
                       </Col>
                     </div>
                   </div>
@@ -817,193 +911,295 @@ const App: React.FC = () => {
               </Row>
             </div>
             <div>
-            <Row className="row">
+              <Row className="row">
                 <Col span={24} className="col-12">
                   <div className="tabs-site-button">
                     <div className="event-tabs">
                       <Col className="col-md-12 col-12">
                         <div className="event-wrap">
                           <Row className="row">
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (1).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (1).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (2).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (2).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (3).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (3).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (4).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (4).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (5).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (5).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (6).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (6).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (7).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (7).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (8).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (8).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (9).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (9).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (10).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (10).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (11).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (11).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (12).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (12).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (13).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (13).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (14).jpg" />
+                                <img
+                                loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (14).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (15).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (15).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (16).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (16).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (17).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (17).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (18).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (18).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (19).jpg" />
+                                <img
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (19).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (20).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (20).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (21).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (21).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (22).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (22).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (23).jpg" />
+                                <img
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (23).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (24).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (24).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (25).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (25).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
-                            <Col
-                              span={24}
-                            >
+                            <Col span={24}>
                               <div className="event-img">
-                                <img src="/assets/images/gallery/A (26).jpg" />
+                                <img
+                                 loading="lazy"
+                                  src={
+                                    window.location.pathname +
+                                    "/assets/images/gallery/A (26).jpg"
+                                  }
+                                />
                               </div>
                             </Col>
                           </Row>
